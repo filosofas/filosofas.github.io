@@ -1,0 +1,310 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="prism.css"/>
+    <link rel="stylesheet" type="text/css" href="split.css">
+    <script src="prism.js"></script>
+    <script>
+      Prism.plugins.NormalizeWhitespace.setDefaults({
+      	'remove-trailing': true,
+      	'remove-indent': true,
+      	'left-trim': true,
+      	'right-trim': true,
+      	'break-lines': 100,
+      	'indent': 0,
+      	'remove-initial-line-feed': true,
+      	'tabs-to-spaces': 4,
+      	'spaces-to-tabs': 4
+      });
+    </script>
+  </head>
+  <body>
+    <div class="split left">
+      <pre class="line-numbers">
+        <code class="language-xml">
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?&gt;
+&lt;?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?&gt;
+&lt;?xml-stylesheet type="text/xsl" href="teibp.xsl"?&gt;
+&lt;TEI&gt;
+	 &lt;teiHeader&gt;
+			&lt;fileDesc&gt;
+				 &lt;titleStmt&gt;
+						&lt;title&gt;La mujer&lt;/title&gt;
+						&lt;author&gt;
+							 &lt;persName&gt;Gertrudis Gómez de Avellaneda&lt;/persName&gt;
+						&lt;/author&gt;
+						&lt;respStmt&gt;
+							 &lt;name&gt;Natalia L. Zorrilla&lt;/name&gt;
+							 &lt;p /&gt;
+							 &lt;resp&gt;Encoder&lt;/resp&gt;
+						&lt;/respStmt&gt;
+				 &lt;/titleStmt&gt;
+				 &lt;editionStmt&gt;
+						&lt;edition&gt;
+							 Digital edition of
+							 &lt;title&gt;
+									&lt;ref target="http://www.cervantesvirtual.com/portales/gertrudis_gomez_de_avellaneda/obra-visor/la-mujer-articulos-publicados-en-un-periodico-el-ano-de-1860-y-dedicados-por-la-autora-al-bello-sexo--0/html/01c41280-82b2-11df-acc7-002185ce6064.html"&gt;LA MUJER, considerada particularmente en su capacidad científica, artística y literaria&lt;/ref&gt;
+							 &lt;/title&gt;
+							 by
+							 &lt;author&gt;
+									&lt;persName&gt;
+										 &lt;ref target="http://viaf.org/viaf/76328537"&gt;Gertrudis Gómez de Avellaneda&lt;/ref&gt;
+									&lt;/persName&gt;
+							 &lt;/author&gt;
+						&lt;/edition&gt;
+				 &lt;/editionStmt&gt;
+				 &lt;publicationStmt&gt;
+						&lt;publisher&gt;NLZ&lt;/publisher&gt;
+						&lt;availability&gt;
+							 &lt;p&gt;This TEI-XML document was produced as a proof of concept for the sole purpose of sharing it with the Extending New Narratives Management Committee.&lt;/p&gt;
+							 &lt;licence /&gt;
+						&lt;/availability&gt;
+						&lt;date&gt;
+							 &lt;p&gt;2020&lt;/p&gt;
+						&lt;/date&gt;
+						&lt;distributor&gt;NLZ&lt;/distributor&gt;
+				 &lt;/publicationStmt&gt;
+				 &lt;sourceDesc&gt;
+						&lt;bibl&gt;
+							 &lt;title&gt;
+                LA MUJER, considerada particularmente en su capacidad científica, artística y literaria
+                &lt;/title&gt;.
+                Extract of
+							 &lt;title&gt;La mujer, Artículos publicados en un periódico el año de 1860, y dedicados por la autora al bello sexo&lt;/title&gt;
+							 . Published in
+							 &lt;title&gt;Obras literarias de la Señora Doña Gertrudis Gómez de Avellaneda&lt;/title&gt;
+							 ,
+							 &lt;biblScope unit="tome"&gt;Tomo V&lt;/biblScope&gt;
+							 (p.
+							 &lt;biblScope unit="page"&gt;302-6&lt;/biblScope&gt;
+							 ).
+							 &lt;author&gt;
+									&lt;persName&gt;Gertrudis Gómez de Avellaneda&lt;/persName&gt;
+							 &lt;/author&gt;
+							 &lt;pubPlace&gt;
+									&lt;placeName&gt;Madrid&lt;/placeName&gt;
+							 &lt;/pubPlace&gt;
+							 &lt;publisher&gt;Imprenta y estereotipia de M. Rivadeneyra&lt;/publisher&gt;
+							 &lt;date&gt;1871&lt;/date&gt;
+						&lt;/bibl&gt;
+				 &lt;/sourceDesc&gt;
+			&lt;/fileDesc&gt;
+			&lt;encodingDesc&gt;
+				 &lt;projectDesc&gt;
+						&lt;p&gt;Feminist Genealogies&lt;/p&gt;
+				 &lt;/projectDesc&gt;
+				 &lt;editorialDecl&gt;
+						&lt;normalization&gt;
+							 &lt;p&gt;Original orthography has been modernized&lt;/p&gt;
+						&lt;/normalization&gt;
+						&lt;quotation&gt;
+							 &lt;p&gt;Original quotation marks have been modernized&lt;/p&gt;
+						&lt;/quotation&gt;
+						&lt;hyphenation&gt;
+							 &lt;p&gt;Preservation of original hyphenation symbols&lt;/p&gt;
+						&lt;/hyphenation&gt;
+				 &lt;/editorialDecl&gt;
+			&lt;/encodingDesc&gt;
+			&lt;profileDesc&gt;
+				 &lt;langUsage&gt;
+						&lt;language ident="es"&gt;Español&lt;/language&gt;
+				 &lt;/langUsage&gt;
+				 &lt;abstract&gt;
+						&lt;p&gt;Essay about the woman question that argues in favour of the superiority of women with respect to men, that exalts eminent and noteworthy women, and that denounces the injust lack of recognition women have suffered throughout the centuries&lt;/p&gt;
+				 &lt;/abstract&gt;
+				 &lt;textDesc&gt;
+						&lt;channel mode="w"&gt;
+							 w
+							 &lt;!-- written --&gt;
+						&lt;/channel&gt;
+						&lt;constitution type="composite" /&gt;
+						&lt;derivation type="original"&gt;
+							 Essay on the woman question by
+							 &lt;author&gt;
+									&lt;persName&gt;Gertrudis Gómez de Avellaneda&lt;/persName&gt;
+							 &lt;/author&gt;
+						&lt;/derivation&gt;
+						&lt;domain type="philosophy" /&gt;
+						&lt;factuality type="fact" /&gt;
+						&lt;preparedness type="revised" /&gt;
+						&lt;purpose type="persuade" degree="high" /&gt;
+				 &lt;/textDesc&gt;
+			&lt;/profileDesc&gt;
+	 &lt;/teiHeader&gt;
+	 &lt;text&gt;
+			&lt;body&gt;
+				 &lt;div type="header"&gt;
+						&lt;head&gt;LA MUJER, considerada particularmente en su capacidad científica, artística y literaria&lt;/head&gt;
+						&lt;head&gt;
+							 &lt;author&gt;
+									&lt;persName&gt;Gertrudis Gómez de Avellaneda&lt;/persName&gt;
+							 &lt;/author&gt;
+						&lt;/head&gt;
+				 &lt;/div&gt;
+				 &lt;div&gt;
+						&lt;div type="part" n="1"&gt;
+							 &lt;lb /&gt;
+							 &lt;p&gt;
+									Si áun necesitásemos nuevas demostraciones de que la fuerza moral e intelectual de la mujer se iguala, cuando menos, con la del hombre, no tendríamos más que buscarlas — con sólo otra mirada rapidísima — en el vasto campo de la literatura y las artes. No decimos también de la ciencia, porque estando ésta basada únicamente en el conocimiento de las realidades — conocimiento que los mayores genios no pueden poseer por intuición — sería absurdo pretender hallar gran número de celebridades científicas en esa mitad de la especie racional, para la que están cerradas todas las  puertas de los graves institutos, reputándose hasta ridícula la aspiración de su alma a los estudios profundos. La capacidad de la mujer para la ciencia no es admitida a prueba por los que deciden soberanamente su negación, y causa sumo asombro que — áun así y todo — no falten ejemplos gloriosos de perseverantes talentos femeninos, que han logrado forzar de vez en cuando la entrada del santuario, para arrancar a la misteriosa deidad algunos de sus secretos. Dígalo
+									&lt;persName xml:id="w01" role="philosopher" ref="http://viaf.org/viaf/24990110"&gt;Areta&lt;/persName&gt;
+									(hija de Aristipo), autora de cuarenta libros científicos, maestra de ciento diez filósofos distinguidos, heredera por sus contemporáneos como instruida en la física, el álgebra y la geometría, que como inspirada en la poética; y
+									&lt;persName xml:id="w02" role="philosopher" ref="https://viaf.org/viaf/305114998/"&gt;
+										 &lt;roleName&gt;la princesa de Piombino&lt;/roleName&gt;
+									&lt;/persName&gt;
+									, teóloga y filósofa; y
+									&lt;persName xml:id="w03" role="philosopher" ref="http://viaf.org/viaf/76345646"&gt;
+										 &lt;roleName&gt;madama&lt;/roleName&gt;
+										 Chatelet
+									&lt;/persName&gt;
+									, reconocida como astrónoma, etc., etc.
+							 &lt;/p&gt;
+							 &lt;p&gt;
+									Si la mujer — a pesar de estos y otros brillantes indicios de su capacidad científica — áun sigue proscrita del templo de los conocimientos profundos, no se crea tampoco que data de muchos siglos su aceptación en el campo literario y artístico: ¡ah! ¡no! También ese terreno le ha sido disputado
+palmo a palmo por el exclusivismo varonil, y áun hoy día se la mira en él como intrusa y usurpadora, tratándosela, en consecuencia, con cierta ojeriza y desconfianza, que se echa de ver en el alejamiento en que se la mantiene de las academias
+									&lt;hi rendition="#i"&gt;barbudas&lt;/hi&gt;
+									. — Pasadnos este adjetivo, queridas lectoras, porque se nos ha venido naturalmente a la pluma al mencionar esas ilustres corporaciones de gentes de letras, cuyo primero y más importante título es el de
+									&lt;hi rendition="#i"&gt;tener barbas&lt;/hi&gt;
+									.
+							 &lt;/p&gt;
+							 &lt;p&gt;
+									Como desgraciadamente la mayor potencia intelectual no alcanza a hacer brotar en la parte inferior del rostro humano esa exuberancia animal que requiere el filo de la navaja, ella ha venido a ser la única e insuperable distinción de los literatos varones, quienes — viéndose despojados cada día de
+otras prerrogativas que reputaban exclusivas — se aferran a aquélla con todas sus fuerzas de
+									&lt;hi rendition="#i"&gt;sexo fuerte&lt;/hi&gt;
+									, haciéndola prudentísimamente el
+									&lt;hi rendition="#i"&gt;sine qua non&lt;/hi&gt;
+									de las académicas glorias.
+							 &lt;/p&gt;
+							 &lt;p&gt;
+									Pero ¡admirad la audacia y la astucia del sexo débil! Hay
+									&lt;hi rendition="#i"&gt;ellas&lt;/hi&gt;
+									que, no sé cómo, se alzaron súbitamente con borlas de doctores.
+									&lt;note place="bottom" type="footnote" resp="author" n="1" anchored="true"&gt;
+										 Recordamos, entre otras, a la célebre
+										 &lt;persName xml:id="w04" role="philosopher" ref="http://viaf.org/viaf/89368793"&gt;
+												&lt;roleName&gt;doña&lt;/roleName&gt;
+												María Isidra de Guzmán, conocida con el nombre de
+												&lt;addName type="honorific"&gt;Doctora de Alcalá&lt;/addName&gt;
+										 &lt;/persName&gt;
+										 .
+									&lt;/note&gt;
+									Otras que cubriendo sus lampiñas caras con máscara varonil, se entraron, sin más ni más, tan adentro del templo de la fama, que cuando vino a conocerse que
+									&lt;hi rendition="#i"&gt;carecían de barbas&lt;/hi&gt;
+									y no podían, por consiguiente, ser admitidas entre las capacidades académicas, ya no había medio hábil de negarles que poseían justos títulos para figurar eternamente entre las capacidades europeas
+									&lt;note place="bottom" type="footnote" resp="author" n="2" anchored="true"&gt;
+										 Nos contentaremos con citar á
+										 &lt;persName xml:id="w05" role="writer" ref="http://viaf.org/viaf/46766944"&gt;Jorge Sand&lt;/persName&gt;
+										 , jefe de todas esas
+										 &lt;hi rendition="#i"&gt;lampiñas disfrazadas&lt;/hi&gt;
+										 . El nombre varonil que supo ilustrar con sus escritos, figuraría indudablemente entre los más notables de la Academia francesa; pero ¡oh dolor! se supo demasiado pronto que eran postizas las
+										 &lt;hi rend="italic"&gt;barbas&lt;/hi&gt;
+										 de aquel gran talento verdadero, y he aquí que la falta del apéndice precioso jamás podrá ser subsanada por toda la gloria del Byron frances.
+									&lt;/note&gt;
+									.
+							 &lt;/p&gt;
+						&lt;/div&gt;
+						&lt;div type="part" n="2"&gt;
+							 &lt;lb /&gt;
+							 &lt;p&gt;
+									Aun es mayor — iespantaos! — áun es mayor el número de temerarias que a cara descubierta se han hecho inscribir
+									&lt;hi rendition="#i"&gt;sans façon&lt;/hi&gt;
+									en los fastos gloriosos de la inteligencia. ¿A qué citar ejemplos, siendo tan públicos y palpables los hechos?
+							 &lt;/p&gt;
+							 &lt;p&gt;
+									Desde la más remota antigüedad vemos a la mujer dando muestras de que nació dotada del instinto artístico, que había de salvar al cabo cuantas murallas se le opusieran. Las musas mitológicas eran, probablemente, apoteosis de mujeres ilustres de los primeros tiempos, iniciadoras de las artes; pero sin necesidad de recurrir a hipótesis, sabido es que — según respetables opiniones — se debe a una mujer la invención de la pintura; que otra ha puesto las bases de la primera sociedad de bellas artes, estableciendo los juegos florales...
+									&lt;note place="bottom" type="footnote" resp="author" n="3" anchored="true"&gt;
+										 &lt;persName xml:id="w06" role="art patron"&gt;Clemencia Isaura&lt;/persName&gt;
+										 , cuyo hermoso retrato hemos tenido el gusto de ver conservado con veneración en uno de los salones de la Academia de Ciencias y Letras de Tolosa de Francia.
+									&lt;/note&gt;
+									Y ¿quién ignora que
+									&lt;persName xml:id="w07" role="poetess" ref="http://viaf.org/viaf/78770488"&gt;Safo&lt;/persName&gt;
+									fue célebre entre los más célebres poetas griegos de su época; que
+									&lt;persName xml:id="w08" role="poetess" ref="http://viaf.org/viaf/9666495"&gt;Corinna&lt;/persName&gt;
+									venció á Píndaro; que
+									&lt;persName xml:id="w09" role="poetess" ref="http://viaf.org/viaf/727159233920203370056"&gt;Tesálida&lt;/persName&gt;
+									infundía — con los mágicos sones de su lira — el heroísmo del guerrero en los juveniles corazones de las doncellas argivas?
+No intentaremos descender a los tiempos modernos: la Europa sola nos abrumaría con el inmenso número de sus glorias femeniles; y la América — ese mundo tan nuevo en que he nacido — la América misma llovería sobre nosotras multitud de nombres de distinguidas hembras, que sostienen en ella el movimiento intelectual amenazado de sofocación, en unas partes por la preponderancia de los intereses materiales, y en otras por las disensiones civiles.
+							 &lt;/p&gt;
+							 &lt;p&gt;
+									Y ¿cómo no ser así, cuando — al descubrir Colon una parte de esas regiones vírgenes — pudo notar con asombro que la naciente civilización de aquel pueblo y el genio de su poesía estaban encarnados en el hermoso cuerpo de una mujer?
+									&lt;persName xml:id="w10" role="poetess" ref="http://viaf.org/viaf/75564929"&gt;Anacaona&lt;/persName&gt;
+									era la sibila inspirada de una de nuestras ricas islas tropicales. A su voz — resonando entre las armonías de los bosques — se suavizaron las costumbres de aquellas tribus bárbaras, se reveló a sus entendimientos la soberanía de la inteligencia, y obedecieron como a reina a la que veneraban como a oráculo.
+							 &lt;/p&gt;
+							 &lt;div type="part" n="3"&gt;
+									&lt;lb /&gt;
+									&lt;p&gt;
+										 En cuanto a capacidades femeniles contemporáneas, sólo añadiremos, por conclusión, que acaban de ver la luz pública en Francia dos obras notables por más de un concepto. La una, debida a la pluma de
+										 &lt;persName&gt;
+												&lt;roleName&gt;Mlle.&lt;/roleName&gt;
+												Marchet Girard
+										 &lt;/persName&gt;
+										 , lleva por título:
+										 &lt;title&gt;
+												&lt;hi rendition="#i"&gt;Las mujeres, su pasado, su presente, su porvenir&lt;/hi&gt;
+										 &lt;/title&gt;
+										 . La otra, de que es autora la ya célebre
+										 &lt;persName&gt;
+												&lt;roleName&gt;condesa&lt;/roleName&gt;
+												Dora d'Istria
+										 &lt;/persName&gt;
+										 , tiene por epígrafe:
+										 &lt;title&gt;
+												&lt;hi rendition="#i"&gt;Las mujeres en Oriente&lt;/hi&gt;
+										 &lt;/title&gt;
+										 . Aun no hemos tenido el gusto de leer ninguna de dichas producciones; pero — a juzgar por los juicios de la prensa periódica parisiense — ambas son interesantísimas por su esencia y bellas en su forma. Los documentos esparcidos de la gran causa de una de las mitades de la especie humana, esto es, todo cuanto prueba algo a favor de la emancipación de la mujer, parece que ha sido reunido y puesto en orden por la primera de las dos nombradas escritoras, y apoyado aquel importante interés social con argumentos de una lógica irrebatible. El libro de la
+										 &lt;persName&gt;
+												&lt;roleName&gt;condesa&lt;/roleName&gt;
+												Dora d'Istria
+										 &lt;/persName&gt;
+										 es — según palabras de un periódico acreditado — corroborante enérgico del de
+										 &lt;persName&gt;
+												&lt;roleName&gt;mademoiselle&lt;/roleName&gt;
+												Marchet Girard
+										 &lt;/persName&gt;
+										 ,
+										 &lt;quote&gt;
+												&lt;hi rend="italic"&gt;viniendo&lt;/hi&gt;
+										 &lt;/quote&gt;
+										 (dice)
+										 &lt;quote&gt;
+												&lt;hi rend="italic"&gt;a prestarle el testimonio de una parte del globo, después de compulsar archivos vivientes; esto es, viajeros, historiadores, costumbres, vida íntima&lt;/hi&gt;
+												.
+										 &lt;/quote&gt;
+										 &lt;quote&gt;
+												&lt;hi rendition="#i"&gt;Las mujeres&lt;/hi&gt;
+										 &lt;/quote&gt;
+										 — dice también el citado periódico —
+										 &lt;quote&gt;
+												&lt;hi rendition="#i"&gt;parecen decididas, por fin, a tomar en manos sus propios intereses, y preciso es confesar que — aparte de la fuerza que puedan tener los argumentos contenidos en los dos libros mencionados — ellos por sí mismos son dos argumentos ir refutables en favor de la igualdad intelectual de ambos sexos.&lt;/hi&gt;
+										 &lt;/quote&gt;
+									&lt;/p&gt;
+									&lt;p&gt;La humilde persona que suscribe estos artículos, queridas lectoras, no aspira en manera alguna a presentarse a vosotras como digno campeón de nuestro común derecho; pero séale permitido — al enorgullecerse de los triunfos del sexo — haceros notar, por término final de estas breves observaciones, un hecho evidente, que quizá prueba más que todos los argumentos.&lt;/p&gt;
+									&lt;p&gt;En las naciones en que es honrada la mujer, en que su influencia domina en la sociedad, allí de seguro hallaréis civilización, progreso, vida pública.&lt;/p&gt;
+									&lt;p&gt;En los países en que la mujer está envilecida, no vive nada que sea grande; la servidumbre, la barbarie, la ruina moral es el destino inevitable a que se hallan condenados.&lt;/p&gt;
+									&lt;p&gt;FIN DE LA MUJER.&lt;/p&gt;
+							 &lt;/div&gt;
+						&lt;/div&gt;
+				 &lt;/div&gt;
+				 &lt;div&gt;
+						&lt;head&gt;Credit&lt;/head&gt;
+						&lt;p&gt;
+							 This document was prepared using the
+							 &lt;ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html"&gt;TEI-C&lt;/ref&gt;
+							 guidelines on headers and the
+							 &lt;ref target="http://www.wwp.northeastern.edu/outreach/seminars/_current/handouts/header_template.xml"&gt;Women Writers Project&lt;/ref&gt;
+							 TEI resources as reference.
+						&lt;/p&gt;
+				 &lt;/div&gt;
+			&lt;/body&gt;
+	 &lt;/text&gt;
+&lt;/TEI&gt;
+          </code>
+        </pre>
+      </div>
+    <div class="split right">
+      <iframe src="la-muger-gg.htm" width="100%" height="100%"></iframe>
+    </div>
+  </body>
+</html>
